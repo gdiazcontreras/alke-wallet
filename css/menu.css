@@ -1,0 +1,14 @@
+.menu-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.10);
+    transition: all 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-3px);
+}
+
+.menu-card h5 {
+    color: #1f2937;
+}

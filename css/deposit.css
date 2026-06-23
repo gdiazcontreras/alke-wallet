@@ -1,0 +1,27 @@
+.deposit-card {
+    background: white;
+    border-radius: 18px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.10);
+}
+
+.deposit-img {
+    max-width: 500px;
+}
+
+.hero-title {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #6c3df5;
+    box-shadow: 0 0 0 0.15rem rgba(108, 61, 245, 0.15);
+}

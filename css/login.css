@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-brand img {
+    border-radius: 8px;
+}
+
+.login-brand {
+    margin-bottom: 10px;
+}
+
+.login-container {
+    min-height: 80vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f3f0ff 40%, #ede9fe 100%);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.12);
+}
+
+.login-card h2 {
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #6c3df5;
+    box-shadow: 0 0 0 0.2rem rgba(108, 61, 245, 0.15);
+}
+
+.hero-btn {
+    background: linear-gradient(90deg, #6c3df5, #7c4dff);
+    border: none;
+    padding: 0.9rem 2.5rem;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
+    color: white !important;
+}
+
+.hero-btn:hover {
+    color: white !important;
+}
+
+.link-alke {
+    color: #6c3df5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link-alke:hover {
+    color: #6c3df5;
+    text-decoration: underline;
+}

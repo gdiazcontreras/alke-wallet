@@ -1,0 +1,31 @@
+.transactions-card {
+    background: white;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.10);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table-header {
+    background: linear-gradient(90deg, #6c3df5, #7c4dff);
+    color: white;
+}
+
+.table-header th {
+    border: none;
+    padding: 1rem;
+}
+
+.table td {
+    padding: 1rem;
+    border-color: #f1f1f1;
+}
+
+.badge {
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 500;
+}

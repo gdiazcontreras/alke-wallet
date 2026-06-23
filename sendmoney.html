@@ -4,60 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/sendmoney.css">
-    <title>Pantalla de envío de dinero Alke Wallet</title>
+
+    <title>Enviar dinero - Alke Wallet</title>
 </head>
 
 <body>
-    <!-- Encabezado del sitio -->
-    <header>
-        <h1>Alke Wallet</h1>
-    </header>
 
-    <!-- Contenido principal -->
-    <main>
-        <h2>Enviar dinero</h2>
-        <p>Completa los datos del destinatario y el monto a transferir:</p>
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="./img/icono-billetera.png" width="30" height="30">
+                <span class="brand-text">
+                    <strong>Alke</strong> Wallet
+                </span>
+            </a>
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="menu.html">← Volver al menú principal</a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<!-- MAIN -->
+<main class="container py-5">
+
+    <div class="send-card">
+
+        <h2 class="text-center hero-title mb-2">
+            Enviar dinero
+        </h2>
+
+        <p class="text-center text-muted mb-4">
+            Completa los datos del destinatario y el monto a transferir.
+        </p>
+
+        <!-- FORM -->
         <form>
-            <div>
-                <label for="destinatario">Nombre destinatario:</label>
-                <input type="text" id="destinatario" name="destinatario" required>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <label class="form-label">Nombre destinatario</label>
+                    <input type="text" class="form-control" placeholder="Juan Pérez">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Número de cuenta</label>
+                    <input type="text" class="form-control" placeholder="Mínimo 8 dígitos">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Monto</label>
+                    <input type="number" class="form-control" placeholder="$ 0">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" placeholder="ejemplo@dominio.com">
+                </div>
+
             </div>
 
-            <div>
-                <label for="cuenta">Número de cuenta</label>
-                <input type="text" id="cuenta" pattern="\d{8,}" title="Debe tener al menos 8 dígitos" required>
-            </div>
+            <button type="button" class="btn hero-btn w-100 mt-4">
+                ✈️ Realizar transferencia
+            </button>
 
-            <div>
-                <label for="monto">Monto:</label>
-                <input type="number" id="monto" name="monto" min="1" step="1" title="El monto debe ser mayor a cero"
-                    required>
-            </div>
-
-            <div>
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" id="correo" name="correo" placeholder="ejemplo@dominio.com" required>
-            </div>
-
-            <br>
-            <button type="submit">Realizar transferencia</button>
         </form>
 
-        <br>
-        <a href="menu.html">Volver al menú principal</a>
-    </main>
+    </div>
 
-    <!-- Pie de sitio -->
-    <footer>
-        <p> &copy; 2026 Alke Wallet</p>
-    </footer>
+</main>
 
-    <script src="./js/jquery-4.0.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="./js/app.js"></script>
+<!-- FOOTER -->
+<footer class="custom-footer">
+    <p>&copy; 2026 Alke Wallet</p>
+</footer>
+
+<script src="./js/jquery-4.0.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/app.js"></script>
 
 </body>
-
 </html>
