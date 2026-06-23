@@ -16,6 +16,15 @@ Para ingresar a la aplicación usar las siguientes credenciales:
 
 ---
 
+## 📸 Capturas
+### Index
+![Index Screenshot](img/screenshot-index.png)
+
+### Maquetas
+![Maquetas Screenshot](img/maquetas.png)
+
+---
+
 ## 🛠️ Tecnologías utilizadas
 - HTML5  
 - CSS3 (con `global.css` para estilos comunes y archivos específicos por página)  
