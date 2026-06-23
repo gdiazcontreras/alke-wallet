@@ -8,6 +8,12 @@ Permite simular login, depósitos, transferencias y visualizar un historial din�
 ## 🚀 Demo
 👉 [Ver proyecto en línea](https://gdiazcontreras.github.io/alke-wallet/)
 
+## 🔑 Credenciales de prueba
+Para ingresar a la aplicación usar las siguientes credenciales:
+
+- Usuario: **usuario@email.com**
+- Contraseña: **123456**
+
 ---
 
 ## 🛠️ Tecnologías utilizadas
