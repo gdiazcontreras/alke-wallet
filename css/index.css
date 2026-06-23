@@ -51,16 +51,17 @@ main {
     padding: 6px 10px;
 }
 
+/* HOVER */
 .navbar-nav .nav-link:hover {
     color: #6c3df5;
     background-color: rgba(108, 61, 245, 0.08);
 }
 
+/* ACTIVO */
 .navbar-nav .nav-link.active {
     color: #6c3df5 !important;
     font-weight: 600;
-    background-color: rgba(108, 61, 245, 0.08);
-    border-radius: 8px;
+    background-color: rgba(108, 61, 245, 0.12);
 }
 
 /* =========================
@@ -123,6 +124,13 @@ main {
     border-radius: 12px;
     font-weight: 700;
     box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
+    transition: all 0.25s ease;
+}
+
+.hero-btn:hover {
+    background: linear-gradient(90deg, #7c4dff, #9b7bff);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(108, 61, 245, 0.30);
 }
 
 /* =========================
@@ -180,4 +188,17 @@ main {
 
 .custom-footer strong {
     color: #6c3df5;
+}
+
+.brand-primary {
+    color: #6c3df5;
+    font-weight: 700;
+}
+
+.brand-primary {
+    color: #6c3df5;
+}
+
+.brand-text {
+    color: #1f2937;
 }

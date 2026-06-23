@@ -5,20 +5,18 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
-.login-brand img {
-    border-radius: 8px;
-}
-
-.login-brand {
-    margin-bottom: 10px;
-}
+/* =========================
+   LOGIN LAYOUT
+========================= */
 
 .login-container {
     min-height: 80vh;
-    display: flex;
     flex: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
@@ -33,6 +31,39 @@ body {
     border-radius: 18px;
     box-shadow: 0 8px 25px rgba(108, 61, 245, 0.12);
 }
+
+/* =========================
+   BRAND
+========================= */
+
+.login-brand {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-brand:visited,
+.login-brand:active {
+    color: #1f2937 !important;
+    text-decoration: none !important;
+}
+
+.login-brand img {
+    border-radius: 8px;
+}
+
+.brand-primary {
+    color: #6c3df5;
+    font-weight: 700;
+}
+
+.brand-secondary {
+    color: #1f2937;
+}
+
+/* =========================
+   FORM
+========================= */
 
 .login-card h2 {
     color: #1f2937;
@@ -49,19 +80,30 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(108, 61, 245, 0.15);
 }
 
+/* =========================
+   BUTTON
+========================= */
+
 .hero-btn {
     background: linear-gradient(90deg, #6c3df5, #7c4dff);
     border: none;
     padding: 0.9rem 2.5rem;
     border-radius: 12px;
     font-weight: 700;
-    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
     color: white !important;
+    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
+    transition: all 0.25s ease;
 }
 
 .hero-btn:hover {
-    color: white !important;
+    background: linear-gradient(90deg, #7c4dff, #9b7bff);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(108, 61, 245, 0.30);
 }
+
+/* =========================
+   LINKS
+========================= */
 
 .link-alke {
     color: #6c3df5;
@@ -70,6 +112,5 @@ body {
 }
 
 .link-alke:hover {
-    color: #6c3df5;
     text-decoration: underline;
 }

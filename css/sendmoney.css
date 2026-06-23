@@ -1,8 +1,59 @@
+/* =========================
+   NAVBAR
+========================= */
+
+.custom-navbar {
+    background: linear-gradient(135deg, #ffffff, #f7f3ff);
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.08);
+    border-radius: 0 0 18px 18px;
+    padding: 0.8rem 1.5rem;
+}
+
+.custom-navbar img {
+    border-radius: 8px;
+}
+
+.custom-navbar .brand-text {
+    font-size: 1.6rem;
+    color: #1f2937;
+}
+
+.custom-navbar .brand-text strong {
+    color: #6c3df5;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.25s ease;
+    color: #374151;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+/* HOVER */
+.navbar-nav .nav-link:hover {
+    color: #6c3df5;
+    background-color: rgba(108, 61, 245, 0.08);
+}
+
+/* ACTIVO */
+.navbar-nav .nav-link.active {
+    color: #6c3df5 !important;
+    font-weight: 600;
+    background-color: rgba(108, 61, 245, 0.12);
+}
+
 .send-card {
     background: white;
     border-radius: 18px;
     padding: 2.5rem;
     box-shadow: 0 8px 25px rgba(108, 61, 245, 0.10);
+}
+
+.send-img {
+    width: 100%;
+    max-width: 420px;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -18,4 +69,48 @@
 .form-control:focus {
     border-color: #6c3df5;
     box-shadow: 0 0 0 0.15rem rgba(108, 61, 245, 0.15);
+}
+
+.hero-btn {
+    background: linear-gradient(90deg, #6c3df5, #7c4dff);
+    border: none;
+    color: white !important;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 0.9rem 2.5rem;
+    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
+    transition: all 0.25s ease;
+}
+
+.btn-success-custom {
+    background: linear-gradient(90deg, #22c55e, #16a34a) !important;
+    color: white !important;
+    width: 100% !important;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(34, 197, 94, 0.25);
+}
+
+.alert-ux {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    display: none;
+}
+
+.alert-error {
+    background: rgba(239, 68, 68, 0.1);
+    color: #dc2626;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.alert-success {
+    background: rgba(34, 197, 94, 0.1);
+    color: #16a34a;
+    border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.badge {
+    padding: 0.6rem 0.9rem;
+    border-radius: 12px;
 }

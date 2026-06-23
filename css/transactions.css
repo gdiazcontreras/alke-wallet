@@ -1,3 +1,47 @@
+/* =========================
+   NAVBAR
+========================= */
+
+.custom-navbar {
+    background: linear-gradient(135deg, #ffffff, #f7f3ff);
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.08);
+    border-radius: 0 0 18px 18px;
+    padding: 0.8rem 1.5rem;
+}
+
+.custom-navbar img {
+    border-radius: 8px;
+}
+
+.custom-navbar .brand-text {
+    font-size: 1.6rem;
+    color: #1f2937;
+}
+
+.custom-navbar .brand-text strong {
+    color: #6c3df5;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.25s ease;
+    color: #374151;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+/* HOVER */
+.navbar-nav .nav-link:hover {
+    color: #6c3df5;
+    background-color: rgba(108, 61, 245, 0.08);
+}
+
+/* ACTIVO */
+.navbar-nav .nav-link.active {
+    color: #6c3df5 !important;
+    font-weight: 600;
+    background-color: rgba(108, 61, 245, 0.12);
+}
+
 .transactions-card {
     background: white;
     border-radius: 18px;
@@ -24,8 +68,38 @@
     border-color: #f1f1f1;
 }
 
+.table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background: rgba(108, 61, 245, 0.06);
+    transform: scale(1.01);
+}
+
 .badge {
-    padding: 0.5rem 0.8rem;
-    border-radius: 20px;
-    font-weight: 500;
+    padding: 0.6rem 0.9rem;
+    border-radius: 12px;
+}
+
+.stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.08);
+    text-align: center;
+}
+
+.stat-card h6 {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card h3 {
+    font-weight: 800;
+}
+
+.hero-title {
+    font-weight: 700;
+    color: #1f2937;
 }

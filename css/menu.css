@@ -1,14 +1,162 @@
+/* =========================
+   BACKGROUND GENERAL
+========================= */
+
+body {
+    background: linear-gradient(135deg, #ffffff 0%, #f3f0ff 40%, #ede9fe 100%);
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.custom-navbar {
+    background: linear-gradient(135deg, #ffffff, #f7f3ff);
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.08);
+    border-radius: 0 0 18px 18px;
+    padding: 0.8rem 1.5rem;
+}
+
+.custom-navbar img {
+    border-radius: 8px;
+}
+
+.custom-navbar .brand-text {
+    font-size: 1.6rem;
+    color: #1f2937;
+}
+
+.custom-navbar .brand-text strong {
+    color: #6c3df5;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.25s ease;
+    color: #374151;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+/* HOVER */
+.navbar-nav .nav-link:hover {
+    color: #6c3df5;
+    background-color: rgba(108, 61, 245, 0.08);
+}
+
+/* ACTIVO */
+.navbar-nav .nav-link.active {
+    color: #6c3df5 !important;
+    font-weight: 600;
+    background-color: rgba(108, 61, 245, 0.12);
+}
+
+/* =========================
+   TÍTULO
+========================= */
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.hero-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: linear-gradient(90deg, #6c3df5, #7c4dff);
+    margin: 12px auto 0;
+    border-radius: 10px;
+}
+
+/* =========================
+   MENU CARDS (REDISEÑO)
+========================= */
+
+.menu-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.menu-banner {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(108, 61, 245, 0.15);
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
+    display: block;
+}
+
 .menu-card {
     background: white;
-    border-radius: 16px;
-    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.10);
-    transition: all 0.2s ease;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.12);
+    transition: all 0.25s ease;
+    border: 1px solid rgba(108, 61, 245, 0.08);
+    height: 100%;
 }
 
 .menu-card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(108, 61, 245, 0.18);
 }
 
+/* ICONO SIMULADO (tipo dashboard de tu imagen) */
+.menu-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem auto;
+    border-radius: 16px;
+    background: rgba(108, 61, 245, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* TEXTO */
 .menu-card h5 {
     color: #1f2937;
+    font-weight: 700;
+}
+
+.menu-card p {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   BOTÓN (IGUAL LOGIN/INDEX)
+========================= */
+
+.hero-btn {
+    background: linear-gradient(90deg, #6c3df5, #7c4dff);
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 12px;
+    font-weight: 700;
+    color: white !important;
+    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
+    transition: all 0.25s ease;
+}
+
+.hero-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(108, 61, 245, 0.30);
+}
+
+#faq {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.08);
+}
+
+.badge {
+    padding: 0.6rem 0.9rem;
+    border-radius: 12px;
 }
