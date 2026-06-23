@@ -1,73 +1,12 @@
-/* =========================
-   RESET + BASE
-========================= */
-
-body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
-}
-
-/* =========================
-   LAYOUT PRINCIPAL
-========================= */
-
 main {
     min-height: 620px;
     padding: 2rem;
-    border-radius: 0;
-    box-shadow: none;
     background: transparent;
-}
-
-/* =========================
-   NAVBAR
-========================= */
-
-.custom-navbar {
-    background: linear-gradient(135deg, #ffffff, #f7f3ff);
-    box-shadow: 0 8px 25px rgba(108, 61, 245, 0.08);
-    border-radius: 0 0 18px 18px;
-    padding: 0.8rem 1.5rem;
-}
-
-.custom-navbar img {
-    border-radius: 8px;
-}
-
-.custom-navbar .brand-text {
-    font-size: 1.6rem;
-    color: #1f2937;
-}
-
-.custom-navbar .brand-text strong {
-    color: #6c3df5;
-}
-
-.navbar-nav .nav-link {
-    transition: all 0.25s ease;
-    color: #374151;
-    border-radius: 8px;
-    padding: 6px 10px;
-}
-
-/* HOVER */
-.navbar-nav .nav-link:hover {
-    color: #6c3df5;
-    background-color: rgba(108, 61, 245, 0.08);
-}
-
-/* ACTIVO */
-.navbar-nav .nav-link.active {
-    color: #6c3df5 !important;
-    font-weight: 600;
-    background-color: rgba(108, 61, 245, 0.12);
 }
 
 /* =========================
    BRAND (HERO HEADER)
 ========================= */
-
 .brand {
     font-size: 1.6rem;
     color: #1f2937;
@@ -93,7 +32,6 @@ main {
 /* =========================
    HERO SECTION
 ========================= */
-
 .hero-title {
     font-size: 3rem;
     font-weight: 800;
@@ -117,26 +55,9 @@ main {
     font-weight: 600;
 }
 
-.hero-btn {
-    background: linear-gradient(90deg, #6c3df5, #7c4dff);
-    border: none;
-    padding: 0.9rem 2.5rem;
-    border-radius: 12px;
-    font-weight: 700;
-    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
-    transition: all 0.25s ease;
-}
-
-.hero-btn:hover {
-    background: linear-gradient(90deg, #7c4dff, #9b7bff);
-    transform: translateY(-2px);
-    box-shadow: 0 12px 25px rgba(108, 61, 245, 0.30);
-}
-
 /* =========================
    IMAGEN WALLET
 ========================= */
-
 .wallet-illustration img {
     max-width: 450px;
     width: 100%;
@@ -145,9 +66,7 @@ main {
 /* =========================
    RESPONSIVE
 ========================= */
-
 @media (max-width: 768px) {
-
     .hero-card {
         text-align: center;
     }
@@ -165,40 +84,4 @@ main {
         font-size: 8rem;
         padding: 2rem;
     }
-}
-
-/* =========================
-   FOOTER
-========================= */
-
-.custom-footer {
-    background: linear-gradient(135deg, #ffffff, #f7f3ff);
-    box-shadow: 0 -8px 25px rgba(108, 61, 245, 0.08);
-    border-radius: 18px 18px 0 0;
-    padding: 1rem;
-    text-align: center;
-    color: #1f2937;
-    margin-top: 3rem;
-}
-
-.custom-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-.custom-footer strong {
-    color: #6c3df5;
-}
-
-.brand-primary {
-    color: #6c3df5;
-    font-weight: 700;
-}
-
-.brand-primary {
-    color: #6c3df5;
-}
-
-.brand-text {
-    color: #1f2937;
 }

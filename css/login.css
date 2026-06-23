@@ -6,13 +6,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 /* =========================
    LOGIN LAYOUT
 ========================= */
-
 .login-container {
     min-height: 80vh;
     flex: 1;
@@ -35,17 +33,10 @@ body {
 /* =========================
    BRAND
 ========================= */
-
 .login-brand {
     margin-bottom: 10px;
     cursor: pointer;
     text-decoration: none;
-}
-
-.login-brand:visited,
-.login-brand:active {
-    color: #1f2937 !important;
-    text-decoration: none !important;
 }
 
 .login-brand img {
@@ -64,7 +55,6 @@ body {
 /* =========================
    FORM
 ========================= */
-
 .login-card h2 {
     color: #1f2937;
     font-weight: 700;
@@ -75,36 +65,9 @@ body {
     padding: 10px;
 }
 
-.form-control:focus {
-    border-color: #6c3df5;
-    box-shadow: 0 0 0 0.2rem rgba(108, 61, 245, 0.15);
-}
-
-/* =========================
-   BUTTON
-========================= */
-
-.hero-btn {
-    background: linear-gradient(90deg, #6c3df5, #7c4dff);
-    border: none;
-    padding: 0.9rem 2.5rem;
-    border-radius: 12px;
-    font-weight: 700;
-    color: white !important;
-    box-shadow: 0 8px 20px rgba(108, 61, 245, 0.25);
-    transition: all 0.25s ease;
-}
-
-.hero-btn:hover {
-    background: linear-gradient(90deg, #7c4dff, #9b7bff);
-    transform: translateY(-2px);
-    box-shadow: 0 12px 25px rgba(108, 61, 245, 0.30);
-}
-
 /* =========================
    LINKS
 ========================= */
-
 .link-alke {
     color: #6c3df5;
     text-decoration: none;
